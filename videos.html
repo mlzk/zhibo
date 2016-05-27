@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="cache-control" content="no-cache">
+        <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+         <!-- 禁止横屏 -->
+        <metaname="x5-orientation"content="portrait">
+        <metaname="screen-orientation"content="portrait">
+        <meta charset="utf-8">
+        <title>课程详情</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- 主要库文件-重置样式 -->
+        <link rel="stylesheet" href="css/swiper-3.2.7.min.css" />
+        <!-- 焦点图 -->
+        <link rel="stylesheet" href="css/index.css" />
+        <!-- 主要样式表 -->
+        <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- 图标字体 -->
+     
+       
+    </head>
+
+    <body ontouchstart>
+  
+<div style="width:100%;height:100%;overflow:hidden; position:absolute;">
+<div id="panel"style="width:100%;height:100%;overflow:hidden;">
+   <!-- 底部导航 -->
+
+
+    <div  class="page-box video-box" style="bottom:2.4rem;">
+    <header>
+  <a style="color:#fff;" class="top-menu" href="javascript:history.go(-1)"><i class="fa fa-arrow-left"></i></a>
+
+  <span>课程详情</span>
+ 
+  <a style="color:#339999"  class="top-search" href="javascript:;"><i  class="fa fa-star-o"></i>
+<!-- 占位不做处理 -->
+  </a>
+  </header> 
+      <!-- 内容开始 -->
+      <section id="my_player" style="width:100%;overflow:hidden;padding:0">
+      <script>
+    // 下面是根据不同尺寸的手机动态设置视频;
+    // 需要根据视频服务提供商的配置参数;
+    // 这里使用的是
+
+             var VideoH = '172';
+            //默认视频高度
+            if(screen.width==320){
+              
+             var VideoH = '172';
+          }
+          else if ((screen.width<=375) && (screen.width>320)) {
+
+              var VideoH = '192';
+
+          }
+          else if((screen.width<=414) && (screen.width>375)) {
+
+              var VideoH = '210';
+
+          }
+          else if((screen.width<=500) && (screen.width>414)) {
+
+              var VideoH = '235';
+
+          }
+          else{
+            var VideoH = '175';
+          }
+         
+       
+          </script>
+        <script src='https://player.polyv.net/script/polyvplayer.min.js'></script>
+                <div id='plv_781bac5cb6927a2d232c802d99a01d43_7'></div>
+        <script>
+        
+
+
+          var player = polyvObject('#plv_781bac5cb6927a2d232c802d99a01d43_7').videoPlayer({
+          'width':'100%',
+          'height':VideoH,
+          // 这里把视频参数改成了变量，根据分辨率动态设置;
+          // 需要固定高度，相应的修改index.css中媒体查询中.videos-detail-h的对应数值；
+          'vid' : '781bac5cb6927a2d232c802d99a01d43_7'
+});
+</script>
+      </section>
+     
+    <ul style="box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.3);margin-top:-1px;-webkit-transform: translateZ(0);" class="tabSlider-hd tabSlider-hd-4">
+                       <li class="curr">课程简介</li>
+                       <li>讲师介绍</li>
+                       <li>课程安排</li>
+                       <li>详细介绍</li>
+     </ul> 
+
+      <section class="videos-detail-h" style="height:50%;width:100%;overflow:scroll; position:relative;padding:0;"class="scroll" >
+   
+          <div style="overflow:hidden"    id="tabSlider2" class="tabSlider">   
+
+            <div  class="tabSlider-bd">     
+
+                <div class="tabSlider-wrap tabs-content-h">
+                    <!-- 课程简介 -->
+                    <div style="background:#fff;" class="tabSlider-box cont-wrap-adj curr">
+                    <section>
+                      <div class="normal-title"><p>我可以进行论文辅导，请来一起学习吧！</p></div>
+                      <div class="video-price">
+                        <p>报名费：<i>￥</i><span>19.19</span></p>
+                      </div>
+                        <div class="text-bar">
+                            <div><p><span>主办方：</span><span>学术中国</span></p></div>
+                             <div><p><span>限额：</span><span>不限/人</span></p></div>
+                       </div>
+                        <div class="text-bar">
+                         <div><p><span>地点：</span><span>线上</span></p></div>
+                          <div></div>
+                       </div>
+
+                       <div class="icon-class">
+                         <div>
+                           <div class="right-text2">
+                              <p>2016-06-05开课</p>
+                             
+                              <p>共48节</p>
+                          </div>
+                         </div>
+                        <div>
+                         <div class="right-text2">
+                           <p>在线授课</p>
+                           <p>支持手机观看</p>
+                         </div>
+                          </div>
+                         <div>
+                         <div class="right-text2">
+                           <p>100%好评</p>
+                              <p>135条</p>
+                         </div>
+                       </div>
+                        </div>
+                     
+                       
+
+                          <div style="clear:both"></div>
+                       </section>
+                    </div>
+                    <!--讲师介绍  -->
+                    <div class="tabSlider-box cont-wrap-adj">
+                      
+                        <div class="pre-teacher">
+                        <section>
+                          <div class="pre-profile"><img src="images/1449047821095194784.png" alt="" /></div>
+                          <div class="pre-text">
+                            <p><span>李岩</span><span>博士</span></p>
+                            <p>北京大学教授</p>
+                            <p>我可以进行论文辅导，请来一起学习吧！</p>
+                          </div>
+                          <div class="pre-add">
+                            <a>+</a>
+                          </div>
+                          <div style="clear:both"></div>
+                          </section>
+                        </div>
+                        <div class="pre-teacher">
+                        <section>
+                          <div class="pre-profile"><img src="images/1449047821095194784.png" alt="" /></div>
+                          <div class="pre-text">
+                            <p><span>李岩</span><span>博士</span></p>
+                            <p>北京大学教授</p>
+                            <p>我可以进行论文辅导，请来一起学习吧！</p>
+                          </div>
+                          <div class="pre-add">
+                            <a>+</a>
+                          </div>
+                          <div style="clear:both"></div>
+                          </section>
+                        </div>
+
+                    </div>
+                    <!-- 课程安排 -->
+                    <div class="tabSlider-box cont-wrap-adj">
+                      <section>
+                        <div class="class-main-list">
+                          <div class="class-main-type-l">
+                            <p>学术中国研习营第16期-学术与中国</p>
+                          </div>
+                          <div class="class-main-type-r"><p>共7讲</p></div>
+                        </div>
+                        <!-- 单行状态 -->
+                        <div class="class-main-list">
+                          <div class="class-main-type-l fix-2-p">
+                            <p>认识学术中国与研究方法</p>
+                            <p>2016.05.12  09:00-12:00 </p>
+                          </div>
+                          <div class="class-main-type-r fix-2-p2"><p>已结束</p></div>
+                          </div>
+                        <!-- 双行状态 -->
+                      </section>
+                   </div>
+                   <!-- 详情介绍  -->
+                    <div class="tabSlider-box cont-wrap-adj">
+                        <section>
+                        <!-- 使用富文本编辑器编辑 -->
+                       <p style="text-align:center;color:#000000;font-size:0.84rem;margin-bottom:1rem;">高效演讲：让你的公众形象与众不同——学术中国高效演
+                        讲公开课"</p>
+                       <p style="text-indent:2rem;color:#666;font-size:0.8rem;">
+                          巴菲特亲自当司机，乘坐他老人家开的车去吃牛排大餐；与巴菲特
+                          面对面连续三个小时的问答，参观伯克希尔哈撒韦、波仙珠宝公司
+                          ，在巴菲特的成就中实地感悟“投资人生”。巴菲特在“投资你自
+                          己”的建议中强调，“现在就养成好习惯，成为你愿意投资的那个
+                          人，而沟通能力则是至宝”。</p>
+                       </section>
+                   </div>
+                  
+                </div>  
+
+            </div>
+
+    </div>
+ 
+  </section>
+  <div class="sub-wrap">
+<a class="sub-user" href="javascript:;">立即支付</a>
+</div>
+
+      <!-- 内容结束 -->
+    </div>
+    </div>
+<!-- 滚动盒子 ？ -->
+
+</div>
+    </body>
+
+<script src="http://www.jq22.com/demo/tabslider-141213112423/zepto.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/layer/layer.js"></script>
+<script src="js/tabslider-videos.js"></script>
+
+<script> 
+
+
+//DOM加载完成后执行确保无闪烁
+window.onload=function(){ 
+
+$(function(){
+    app.TabSlider('#tabSlider2');
+    setTimeout(function(){$(".tabs-content-h").addClass('tabs-content-v');}, 400) 
+});
+
+}
+
+  </script>
+
+  
+</html>
